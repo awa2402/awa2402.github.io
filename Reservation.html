@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>D&A COMPANY| Votre meilleur site de tourisme</title>
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<link rel="icon" href="Image/logo.jpeg">
+	</head>
+	<body class="Boubs">
+		<header class="navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="indexx.html" class="navbar-brand">
+						<img src="image/logo.jpeg" alt="logo">
+					</a>
+					<form method="GET" action="" name="recherche" class="navbar-form">
+						<div>
+							<input type="search" name="recherche" class="input-sm" maxlength="5" placeholder="Rechercher..."> 
+							<span class="input-group-btn">  
+								<button type="submit" title="Chercher" class="btn-success">
+									<img src="Icone/search.png" alt="Chercher" class="glyphicon-search">
+								</button>
+							</span>
+						</div>
+					</form>	
+				</div>
+				<nav class="navbar-nav">
+					<ul class="nav-tabs">
+						<li class="active">
+							<a href="indexx.html">
+								<img src="icone/home.png" class="glyphicon-home" alt="Icone Accueil">
+								Accueil
+							</a>
+						</li>		
+						<li>
+							<a href="Reservation.html">
+								<img src="icone/Reservation3.jpg" alt="Icône Contact" class="glyphicon-earphone">
+	                             Reservation
+							</a>
+						</li>			         
+						<li>
+							<a href="Connexion.html">
+								<img src="icone/user.png" alt="Icône Connexion" class="glyphicon-log-in" >
+								Connexion
+							</a>
+						</li>	
+						<li>
+							<a href="Destination.html">
+								
+								<img src="icone/Dest.png " alt=" Icône panier" class="glyphicon-list-alt">
+								Destinations
+							</a>
+						</li>
+								
+					</ul>
+					
+				</nav>
+			</div>
+		</header>
+		<section class="boody">
+		<form action="" class="form-contact">
+			<h1>Reservation</h1>
+			<div class="corps-formulaire">
+				<div class="gauche">
+						<div class="boite">
+							<label>Votre prenom</label>
+							<input type="text" name="texte" required>
+						</div>
+						<div class="boite">
+							<label>Votre adresse email</label>
+							<input type="email" name="texte" required>
+						</div>
+						<div class="boite">
+							<label>Date de reserve</label>
+							<input type="date" name="texte" required>
+						</div>
+						<div class="boite">
+							<label>Heure de reserve</label>
+							<input type="time" min="00:00" max="24:00" step="1800" name="texte" required>
+						</div>
+						<div>
+							<label>ville ou île que vous voulez visité</label> <br>
+						<select required>
+						<optgroup label="Ville">
+							<option></option>
+							<option>Amsterdam</option>
+							<option>Istanbul</option>
+							<option>Milan</option>
+						</optgroup>
+						<optgroup label=Ile>
+							<option>Bora-bora</option>
+							<option>Seychelles</option>
+							<option>Maldives</option>
+						</optgroup>
+						</select>
+						</div>
+				</div>
+			</div>
+			<div class="pied-formulaire">
+				<button>Reserver</button>
+				
+			</div>
+		</form>
+	</section>
+	<footer class="ftr" >
+			<div class="container">
+				<address class="Contact-foot">
+					<h1>Adresse</h1>
+					<div class="sociaux">
+						<i class="fa-facebook">
+							<a href="" target="_blank">
+								<img src="Icone/Facebook.jpg" alt="Facebook">
+							</a>
+						</i>
+						<i class="fa-twitter">
+							<a href="">
+								<img src="Icone/Twitter.png" alt="Twitter">
+							</a>
+						</i>
+						<i class="fa-instagram">
+							<a href="">
+								<img src="Icone/Instagram.png" alt="Instagram">
+							</a>
+						</i>
+						<i class="fa-WhatsApp">
+							<a href="" target="_blank">
+								<img src="Icone/whatsApp.jpg" alt="WhatsApp">
+							</a>
+						</i>
+					</div>
+					<div class="contact">
+						<div class="adresse">
+							<span class="icon-adresse">
+								<img src="Icone/list-alt.png" alt="Adresses">
+							</span>
+							: <b>Rue 10, Amitié, Dakar, Sénégal</b>
+						</div>
+						<div class="email">
+							<a href="">
+								<span>
+									<img src="Icone/enveloppe.png" alt="E-Mail">
+								</span>
+								<b>: damawacompany@gmail.com</b>
+							</a>
+						</div>
+						<div class="telephone">
+							<a href="tel:+221784601441">
+								<span>
+									<img src="Icone/telephone.png" alt="Téléphone">
+								</span>
+								<b>: +221 78 460 14 41</b>
+							</a>
+						</div>
+					</div>
+				</address>
+				<div  class="Lien-foot">
+					<h1>Liens rapides</h1>
+					<div>
+						<a href="indexx.html" role="button">
+							Accueil
+						</a>
+					</div>
+					<div>
+						<a href="Reservation.html" role="button">
+							Reservation
+						</a>
+					</div>
+					<div>
+						<a href="Connexion.html" role="button">
+							Connexion
+						</a>
+					</div>
+					<div>
+						<a href="Destination.html" role="button">
+							Destinations
+						</a>
+					</div>
+				</div>
+				<div class="Newsletter-foot">
+					<h1>Commentaires</h1>
+					<form method="POST" action="traitement.html" name="news">
+						<div>
+							<input type="email" name="adressemail" class="ki" required placeholder="Votre E-Mail"><br>
+							<input type="password" name="password" class="ki" required placeholder="Votre mot de passe"><br>
+							<textarea placeholder="Poster le commentaire"></textarea><br>
+							<button type="submit" name="Newsletter" class="News-Envoyer">Envoyer</button>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+			<div class="bas">
+				<p class="vlk">© 2022 D&A company | Mentions Légales & Politique de Confidentialité | Site web créé par Awa Fofana et Dam Gueye | Tous droits réservés.</p>
+			</div>
+		</footer>
+
+
+	</body>
+</html>
+		
